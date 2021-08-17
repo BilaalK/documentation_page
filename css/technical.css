@@ -1,0 +1,61 @@
+#navbar {
+    position: fixed;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 100%;
+    background-color: #FF6347;
+    color: white;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+
+#navbar header{
+    margin-left: 3.4vw;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar-text{
+    margin-top: 3.9vh;
+    font-size: 3.7vmin;
+    text-align: center;
+    margin-left: -4vw;
+}
+
+/* #navbar-text ul{
+    color: transparent;
+} */
+
+#main-doc{
+    position: absolute;
+    margin-left: 270px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 14px;
+    background-color: #009CB8;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+#navbar li{
+    border-top: 1.5px solid;
+}
+
+@media only screen and (min-width:320px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
